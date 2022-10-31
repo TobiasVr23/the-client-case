@@ -6,7 +6,7 @@ De bedoeling van deze website is dat de buurtbewoners hun stekjes hier kunnen de
 ## Resultaat:
 ![Schermopname (27)](https://user-images.githubusercontent.com/112855854/199026159-85a1d9d4-3611-4b9a-8f11-e64e9bf6b15b.png)
 ## Kenmerken:
--Figma
--Visual Studio Code
--HTML
--CSS
+- Figma
+- Visual Studio Code
+- HTML
+- CSS
