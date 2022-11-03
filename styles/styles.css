@@ -6,7 +6,8 @@ h1 {
     text-align:center;
     color: white;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family:'Times New Roman', Times, serif;
 }
 
 .button1{
@@ -17,9 +18,15 @@ h1 {
   font-size: large;
   font-weight: 700;
   border: 2px solid darkgreen;
-  margin-left: 10px;
+  margin-left: 7.5px;
   display: flex;
   align-items: center;
+}
+
+.button1:hover{
+  transform: scale(0.98);
+  border: 2px solid darkgreen;
+  background-color: white;
 }
 
 .button2 img{
@@ -29,26 +36,28 @@ h1 {
   margin-right: 10px;
   margin-top: 10px;
 }
+
 .button2{
   background-color: white;
-  border: 0;
+  border-width: 0;
 }
 
-.button1:hover{
+.button2:hover{
   transform: scale(0.98);
-  border: 2px solid darkgreen;
   background-color: white;
-
 }
 
-.zoek img{
-  width:1.5em;
-  height:1.5em;
-  margin-right: 10px;
+
+.bovenste-balk img{
+  width:3em;
+  height:3em;
+  margin-right: 20px;
+  margin-top: 5px;
+  
 }
 
 form{
-  margin-bottom: 20px;
+  margin-left: 20em;
   position: relative;
 }
 form img{
@@ -67,11 +76,11 @@ header{
 }
 main{
     background-image: url("../assets/achtergrond.jpg"); 
-    height: 100%;
     width:100%;
+    height: auto;
     background-repeat: no-repeat,repeat;
-    background-size: cover;
-    position: relative;
+    /* background-size: cover; */
+    position: absolute;
 }
   
 
@@ -80,6 +89,8 @@ main{
   height:60em;
   background-color: white;
   margin: 0 auto;
+  box-shadow: 0 0 10px rgb(164, 255, 142);
+  box-shadow: 0 0 10px rgb(164, 255, 142);
 }
 
 .bovenste-balk{
@@ -100,7 +111,7 @@ h2{
 
 p{
   position: absolute;
-  margin-top: 110px;
+  margin-top: 100px;
   margin-left: 150px;
 }
 
