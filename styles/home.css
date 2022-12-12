@@ -9,6 +9,7 @@ header{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    z-index: 1000;
 }
 .header-links{
   display: flex;
@@ -17,6 +18,7 @@ header{
 .logo img{
   width: 15em;
   height: auto;
+  margin-top: 0 auto;
 }
 
 .menu img{
@@ -35,6 +37,10 @@ header{
 .headerb:hover{
   transform:scale(1.1);
   transition:0.2s;
+  color: #FE7221;
+}
+.home{
+  color: #FE7221;
 }
 
 a{
@@ -59,14 +65,14 @@ h1 {
   display:inline-block;
   font-size: large;
   font-weight: 700;
-  border: 1px solid rgba(240, 240, 240, 0.8);
+  border: 1px solid rgba(163, 163, 163, 0.8);
   margin-left: 7.5px;
   display: flex;
   align-items: center;
 }
 
 .post-button:hover{
-  border: 2px solid #85c27a;
+  border: 1px solid #85c27a;
   background-color: white;
 }
 
@@ -99,6 +105,7 @@ form{
   margin-left: 20em;
   position: relative;
 }
+
 form img{
   width:3em;
   height:3em;
@@ -111,7 +118,6 @@ main{
     background-image: url("../assets/achtergrond.jpg"); 
     width:100%;
     height: auto;
-    background-repeat: no-repeat,repeat;
     position: absolute;
 }
   
@@ -122,19 +128,24 @@ main{
   background-color: white;
   margin: 0 auto;
   box-shadow: 0 0 10px rgb(164, 255, 142);
-  box-shadow: 0 0 10px rgb(164, 255, 142);
+  z-index: 99;
+  border-top-right-radius:5px ;
+  border-top-left-radius:5px ;
+  position: relative;
 }
 
 .bovenste-balk{
   width: 99.5%;
   height:5em;
   background-color: rgb(255, 255, 255);
-  border: 2px solid black;
   border-bottom: 0px;
   vertical-align: baseline;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top-left-radius:5px ;
+  border-top-right-radius:5px ;
+
 }
 h2{
   padding-left: 150px;
@@ -151,9 +162,9 @@ p{
   background-color: rgb(255, 255, 255);
   width:99.5%;
   height:9em;
-  border: 2px solid black;
-  border-bottom: 0px;
+  border-top: 1px solid rgb(184, 184, 184);
   display: inline-flex;
+  position: relative;
 
 }
 
@@ -163,7 +174,7 @@ p{
   align-items: center;
   margin: 7.5px;
   border-radius: 15px;
-  z-index: 1000;
+  z-index: 100;
   transition: 0.5s;
   position: relative;
 }
@@ -184,8 +195,64 @@ p{
   border-bottom: 2px solid black;
 }
 
+.antwoordlijst{
+  width:50rem;
+  height:60rem;
+  background-color: white;
+  margin-bottom: 60em;
+  box-shadow: 0 0 10px rgb(164, 255, 142);
+  display: flex;
+  z-index: 200;
+  border-top-right-radius:5px ;
+  border-top-left-radius:5px ;
+  display: none;
+  position: absolute;
+  color: #333568;
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 800;
+  
+}
+
+.inputlabel{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5em;
+  margin-top: 0;
+}
+
+input{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0;
+  
+}
+
+.antwoordlijst.wel-relevant {
+  display: block;
+}
+
+.terug-button img{
+  width: 2em;
+}
+.terug-button{
+  background-color: white;
+  border:0px solid white;
+  padding: 2em;
+}
+
+label{
+  margin: 1em;
+}
+
+input{
+  
+
+}
+
 footer{
-  background-color: rgb(255, 255, 255);
+  background-color: #333568;
   display: flex;
   align-self: center;
   border-top: 3px solid black;
@@ -200,6 +267,7 @@ footer img{
 
 
 
+=======================================================
 
 @media only screen and (max-width: 480px) {
   header{

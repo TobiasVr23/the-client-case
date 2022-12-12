@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>De Stekjesbieb</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <script src="styles/home.js" defer></script>
   </head>
 
   <body>
@@ -19,34 +20,41 @@
           >
             <img src="assets/header1.png" alt="footer" />
           </a>
-          <a
-            class="headerb meerweten"
-            href="meer-weten.html"
-          >
-            Meer Weten
-          </a>
-          <a
-            class="headerb locatie"
-            href="locatie.html"
-          >
-            Locatie
-          </a>
-          <a
-            class="headerb contact"
-            href="contact.html"
-          >
-            Contact
-          </a>
+          <a class="headerb home" href="home.html"> Home </a>
+          <a class="headerb meerweten" href="meer-weten.html"> Meer weten </a>
+          <a class="headerb locatie" href="locatie.html"> Locatie </a>
+          <a class="headerb contact" href="contact.html"> Contact </a>
         </div>
 
         <a class="menu">
           <img src="assets/menu.png" alt="menu" />
         </a>
       </header>
-      <h1>De Stekjesbieb</h1>
       <div class="wit-midden-stuk">
+        <div class="antwoordlijst">
+
+          <button type="button" class="terug-button">
+            <img src="assets/terug" alt="terugknop"></button>
+<div class="inputlabel">
+          <br>  
+          <label for="file">Plaats afbeelding:</label>
+          <input type="file">
+          <br>
+          <label for="text">Plant naam:</label>
+          <input type="text">
+          <br>
+          <label for="text">Voornaam:</label>
+          <input type="text">
+          <br>
+          <label for="text">Achternaam:</label>
+          <input type="text">
+          <br>
+</div>
+        </div>
+
         <div class="bovenste-balk">
           <button type="button" class="post-button">Post hier je plant!</button>
+
           <form id="form">
             <input type="search" id="query" name="q" placeholder="Zoeken" />
           </form>
@@ -98,6 +106,7 @@
           </p>
         </div>
       </div>
+
       <footer>
         <img src="assets/Logo.png" alt="logo" />
       </footer>

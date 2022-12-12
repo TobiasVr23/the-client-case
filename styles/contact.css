@@ -1,0 +1,231 @@
+body {
+    margin:0;
+  }
+  
+  header{
+      background-color: white;
+      width:100%;
+      height:6em;
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+  }
+  .header-links{
+    display: flex;
+    align-items: center;
+  }
+  .logo img{
+    width: 15em;
+    height: auto;
+  }
+  
+  .menu img{
+    width: 3em;
+    border: 0px solid white ;
+    margin-right: 1em;
+  }
+  
+  
+  .headerb{
+    padding: 1em;
+    text-decoration: none; 
+    font-size: larger;
+  }
+  
+  .headerb:hover{
+    transform:scale(1.1);
+    transition:0.2s;
+    color: #FE7221;
+  }
+
+  .contact{
+    color: #FE7221;
+  }
+  
+  a{
+    color: #333568;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  h1 {
+      text-align:center;
+      color: white;
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.8);
+      font-family:'Times New Roman', Times, serif;
+      
+  }
+  
+  .post-button{
+    background-color: rgb(198, 255, 198);
+    border-radius: 15px;
+    padding: 10px;
+    display:inline-block;
+    font-size: large;
+    font-weight: 700;
+    border: 1px solid rgba(240, 240, 240, 0.8);
+    margin-left: 7.5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-button:hover{
+    border: 2px solid #85c27a;
+    background-color: white;
+  }
+  
+  .zoek-button img{
+    width: 3em;
+    height:3em;
+    background-color: white;
+    margin-top: 10px;
+  }
+  
+  .zoek-button{
+    background-color: white;
+    border-width: 0;
+  }
+  
+  .zoek-button:hover{
+    transform: scale(0.95);
+    background-color: white;
+  }
+  
+  
+  .bovenste-balk img{
+    width:3em;
+    height:3em;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+  
+  form{
+    margin-left: 20em;
+    position: relative;
+  }
+  form img{
+    width:3em;
+    height:3em;
+    margin-right: 10px;
+    margin-top: 30px;
+  }
+  
+  
+  main{
+      background-image: url("../assets/achtergrond.jpg"); 
+      width:100%;
+      height: auto;
+      background-repeat: no-repeat,repeat;
+      position: absolute;
+  }
+    
+  
+  .wit-midden-stuk{
+    width:50em;
+    height:60em;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgb(164, 255, 142);
+  }
+  
+  .bovenste-balk{
+    width: 99.5%;
+    height:5em;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-bottom: 0px;
+    vertical-align: baseline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h2{
+    padding-left: 150px;
+    position: absolute;
+  }
+  
+  p{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 150px;
+  }
+  
+  .deel{
+    background-color: rgb(255, 255, 255);
+    width:99.5%;
+    height:9em;
+    border: 2px solid black;
+    border-bottom: 0px;
+    display: inline-flex;
+  
+  }
+  
+  .deel img{
+    width: 8em;
+    height: 8em;
+    align-items: center;
+    margin: 7.5px;
+    border-radius: 15px;
+    z-index: 1000;
+    transition: 0.5s;
+    position: relative;
+  }
+  
+  .deel img:focus{
+    transform: scale(2.0);
+    margin-left: 20em;
+    transition: 1.5s;
+    border-radius: 0%;
+    border:1px solid black;
+  }
+  .deel img:hover{
+    transform:scale(1.1);
+    transition:0.2s;
+  }
+  .deel6{
+    border: 2px;
+    border-bottom: 2px solid black;
+  }
+  
+  footer{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-self: center;
+    border-top: 3px solid black;
+    
+  }
+  
+  footer img{
+    margin-left: 1em;
+    width: 10em;
+  }
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 480px) {
+    header{
+      width: 100%;
+    }
+  header img{
+    width: 10em;
+  }
+  
+    h1{
+      font-size: 10px;
+    }
+    
+    
+    .meerweten, .locatie, .contact{
+        display: none;
+    }
+    .menu{
+      size:50em;
+    }
+  
+  
+  
+  }
+  
