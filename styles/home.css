@@ -16,7 +16,7 @@ header{
   align-items: center;
 }
 .logo img{
-  width: 15em;
+  width: 20em;
   height: auto;
   margin-top: 0 auto;
 }
@@ -44,35 +44,51 @@ header{
 }
 
 a{
-  color: #333568;
+  color: #333467;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 14px;
+  font-family:'Arial'
+}
+
+p{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 150px;
+  color:#333467;
+  font-family:'Arial'
 }
 
 h1 {
     text-align:center;
-    color: white;
+    color: #333467;
     position: relative;
     background-color: rgba(0, 0, 0, 0.8);
-    font-family:'Times New Roman', Times, serif;
-    
+    font-family:'Arial'
 }
 
+h2{
+  padding-left: 150px;
+  position: absolute;
+  color:#333467;
+  font-family:'Arial'
+}
+
+
 .post-button{
-  background-color: rgb(198, 255, 198);
+  background-color: #F26F20;
   border-radius: 15px;
   padding: 10px;
   display:inline-block;
   font-size: large;
   font-weight: 700;
-  border: 1px solid rgba(163, 163, 163, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.8);
   margin-left: 7.5px;
   display: flex;
   align-items: center;
 }
 
 .post-button:hover{
-  border: 1px solid #85c27a;
+  border: 1.5px solid #F26F20;
   background-color: white;
 }
 
@@ -147,16 +163,7 @@ main{
   border-top-right-radius:5px ;
 
 }
-h2{
-  padding-left: 150px;
-  position: absolute;
-}
 
-p{
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 150px;
-}
 
 .deel{
   background-color: rgb(255, 255, 255);
@@ -208,22 +215,26 @@ p{
   display: none;
   position: absolute;
   color: #333568;
-  font-family:'Times New Roman', Times, serif;
+  font-family:'Arial';
   font-size: large;
-  font-weight: 800;
-  
+  font-weight: 700;
+  position: relative;
 }
 
 .inputlabel{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 5em;
-  margin-top: 0;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  resize: none;
+  position: relative;
 }
 
 input{
-  border: 1px solid black;
+  border: 1px solid  #333467;
   border-radius: 5px;
   margin: 0;
   
@@ -236,6 +247,10 @@ input{
 .terug-button img{
   width: 2em;
 }
+.terug-button:hover img{
+  border: 1px solid #333467;
+  margin: -1px;
+}
 .terug-button{
   background-color: white;
   border:0px solid white;
@@ -246,13 +261,9 @@ label{
   margin: 1em;
 }
 
-input{
-  
-
-}
 
 footer{
-  background-color: #333568;
+  background-color: #FE7221;
   display: flex;
   align-self: center;
   border-top: 3px solid black;
@@ -267,7 +278,7 @@ footer img{
 
 
 
-=======================================================
+
 
 @media only screen and (max-width: 480px) {
   header{
