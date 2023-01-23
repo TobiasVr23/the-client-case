@@ -250,6 +250,7 @@ input{
 .terug-button:hover img{
   border: 1px solid #333467;
   margin: -1px;
+  border-radius: 50%;
 }
 .terug-button{
   background-color: white;
